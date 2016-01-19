@@ -1,0 +1,10 @@
+name: FishSpawn
+version: 1.0
+main: pl.panryba.mc.spawn.Plugin
+commands:
+    fishspawn:
+        description: Teleport na spawn (koszt = 1 gabka)
+        usage: /<command>
+permissions:
+    fishspawn.free:
+        default: op
